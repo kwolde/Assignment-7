@@ -128,4 +128,5 @@ function stepTen() {
 
     var leastFavMovies = ["Father Figures", "Sausage Party", "Scary Movie"];
     var arrays = movies.concat(leastFavMovies);
-    window.cons
+    window.console.log(arrays.sort().reverse().pop());
+}
