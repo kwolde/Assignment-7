@@ -10,9 +10,13 @@ function squareNumber(num) {
     window.console.log("The result of squaring the number " + num + " is " + square + ".");
     return square;
 }
-squareNumber(3);
 //STEP 3
-
+function percentOf(num1, num2) {
+    var percent = (num1/num2) * 100;
+    window.console.log(num1 + " is " + percent + "% of " + num2 + ".");
+    return percent;
+}
+percentOf(4, 16);
 //STEP 4
 
 //STEP 5
