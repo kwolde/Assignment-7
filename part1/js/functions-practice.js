@@ -5,7 +5,12 @@ function halfNumber(num) {
     return half;
 }
 //STEP 2
-
+function squareNumber(num) {
+    var square = num*num;
+    window.console.log("The result of squaring the number " + num + " is " + square + ".");
+    return square;
+}
+squareNumber(3);
 //STEP 3
 
 //STEP 4
