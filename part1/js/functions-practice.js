@@ -21,6 +21,21 @@ function findModulus(num1, num2) {
     var mod = num2 % num1;
     window.console.log(mod + " is the modulus of " + num1 + " and " + num2 + ".");
     return mod;
-} 
-findModulus(4, 10);
+}
 //STEP 5
+function sumOfNumbers(numbers) {
+    var sum = 0;
+    for (var i = 0; i < numbers.length; i++) {
+        sum += Number(numbers[i]);
+    }
+
+    return sum;
+}
+
+function getSum() {
+    var prompt = window.prompt("Enter a list of numbers separated by commas");
+    numbers = prompt.split(',');
+    window.console.log("The sum of the numbers entered is " + sumOfNumbers(numbers) + ".");
+}
+
+getSum();
